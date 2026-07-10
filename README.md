@@ -1,1 +1,63 @@
-# isseimiu
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            background-color: #fff5f8;
+            text-align: center;
+            font-family: "Yu Gothic", sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #ff4fa3;
+            animation: glow 1.5s infinite alternate;
+            text-shadow: 0 0 10px #ffb6e6,
+                 0 0 20px #ff69b4,
+                 0 0 40px #ff1493;
+            }
+
+            @keyframes glow {
+                from {
+                    transform: scale(1);
+            }
+            to {
+                transform: scale(1.08);
+                text-shadow: 0 0 20px #fff,
+                             0 0 40px hotpink,
+                             0 0 60px deeppink;
+                }
+            }
+
+        p {
+            font-size: 22px;
+            color: #555;
+        }
+
+        video {
+            width: 80%;
+            max-width: 700px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>₊˚⊹ ୨୧ Happy Birthday ୨୧ ⊹˚₊</h1>
+
+
+    <video controls>
+        <source src="isseimiu.mp4" type="video/mp4">
+        このブラウザでは動画を再生できません。
+    </video>
+
+</body>
+</html>
